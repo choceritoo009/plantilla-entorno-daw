@@ -1,4 +1,11 @@
 {
   "name": "Entorno DAW",
-  "image": "mcr.microsoft.com/devcontainers/base:jammy"
+  "image": "mcr.microsoft.com/devcontainers/base:jammy",
+  "features": {:    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "streetsidesoftware.code-spell-checker"
+      ]
+    }
+  }
 }
